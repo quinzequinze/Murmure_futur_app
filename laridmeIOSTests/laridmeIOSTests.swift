@@ -1,15 +1,15 @@
 //
-//  WKWebViewBridgeExampleTests.swift
-//  WKWebViewBridgeExampleTests
+//  laridmeIOSTests.swift
+//  laridmeIOSTests
 //
-//  Created by Priya Rajagopal on 12/8/14.
-//  Copyright (c) 2014 Lunaria Software LLC. All rights reserved.
+//  Created by Victor J. Meunier on 09/03/2016.
+//  Copyright © 2016 quinzequinze. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import laridmeIOS
 
-class WKWebViewBridgeExampleTests: XCTestCase {
+class laridmeIOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +23,12 @@ class WKWebViewBridgeExampleTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }

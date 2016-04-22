@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046BDF6C1C90399700D24F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BDF6B1C90399700D24F66 /* AppDelegate.swift */; };
+		046BDF6E1C90399700D24F66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BDF6D1C90399700D24F66 /* ViewController.swift */; };
+		046BDF711C90399700D24F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046BDF6F1C90399700D24F66 /* Main.storyboard */; };
+		046BDF731C90399700D24F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046BDF721C90399700D24F66 /* Assets.xcassets */; };
+		046BDF761C90399700D24F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046BDF741C90399700D24F66 /* LaunchScreen.storyboard */; };
+		046BDF811C90399700D24F66 /* laridmeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BDF801C90399700D24F66 /* laridmeIOSTests.swift */; };
+		046BDF8C1C90399700D24F66 /* laridmeIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BDF8B1C90399700D24F66 /* laridmeIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046BDF7D1C90399700D24F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046BDF601C90399600D24F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046BDF671C90399700D24F66;
+			remoteInfo = laridmeIOS;
+		};
+		046BDF881C90399700D24F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046BDF601C90399600D24F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046BDF671C90399700D24F66;
+			remoteInfo = laridmeIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046BDF681C90399700D24F66 /* laridmeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laridmeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046BDF6B1C90399700D24F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046BDF6D1C90399700D24F66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046BDF701C90399700D24F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046BDF721C90399700D24F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046BDF751C90399700D24F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046BDF771C90399700D24F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046BDF7C1C90399700D24F66 /* laridmeIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laridmeIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046BDF801C90399700D24F66 /* laridmeIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laridmeIOSTests.swift; sourceTree = "<group>"; };
+		046BDF821C90399700D24F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046BDF871C90399700D24F66 /* laridmeIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laridmeIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046BDF8B1C90399700D24F66 /* laridmeIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laridmeIOSUITests.swift; sourceTree = "<group>"; };
+		046BDF8D1C90399700D24F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046BDF651C90399700D24F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046BDF791C90399700D24F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046BDF841C90399700D24F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046BDF5F1C90399600D24F66 = {
+			isa = PBXGroup;
+			children = (
+				046BDF6A1C90399700D24F66 /* laridmeIOS */,
+				046BDF7F1C90399700D24F66 /* laridmeIOSTests */,
+				046BDF8A1C90399700D24F66 /* laridmeIOSUITests */,
+				046BDF691C90399700D24F66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046BDF691C90399700D24F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046BDF681C90399700D24F66 /* laridmeIOS.app */,
+				046BDF7C1C90399700D24F66 /* laridmeIOSTests.xctest */,
+				046BDF871C90399700D24F66 /* laridmeIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046BDF6A1C90399700D24F66 /* laridmeIOS */ = {
+			isa = PBXGroup;
+			children = (
+				046BDF6B1C90399700D24F66 /* AppDelegate.swift */,
+				046BDF6D1C90399700D24F66 /* ViewController.swift */,
+				046BDF6F1C90399700D24F66 /* Main.storyboard */,
+				046BDF721C90399700D24F66 /* Assets.xcassets */,
+				046BDF741C90399700D24F66 /* LaunchScreen.storyboard */,
+				046BDF771C90399700D24F66 /* Info.plist */,
+			);
+			path = laridmeIOS;
+			sourceTree = "<group>";
+		};
+		046BDF7F1C90399700D24F66 /* laridmeIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				046BDF801C90399700D24F66 /* laridmeIOSTests.swift */,
+				046BDF821C90399700D24F66 /* Info.plist */,
+			);
+			path = laridmeIOSTests;
+			sourceTree = "<group>";
+		};
+		046BDF8A1C90399700D24F66 /* laridmeIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046BDF8B1C90399700D24F66 /* laridmeIOSUITests.swift */,
+				046BDF8D1C90399700D24F66 /* Info.plist */,
+			);
+			path = laridmeIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046BDF671C90399700D24F66 /* laridmeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046BDF901C90399700D24F66 /* Build configuration list for PBXNativeTarget "laridmeIOS" */;
+			buildPhases = (
+				046BDF641C90399700D24F66 /* Sources */,
+				046BDF651C90399700D24F66 /* Frameworks */,
+				046BDF661C90399700D24F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laridmeIOS;
+			productName = laridmeIOS;
+			productReference = 046BDF681C90399700D24F66 /* laridmeIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046BDF7B1C90399700D24F66 /* laridmeIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046BDF931C90399700D24F66 /* Build configuration list for PBXNativeTarget "laridmeIOSTests" */;
+			buildPhases = (
+				046BDF781C90399700D24F66 /* Sources */,
+				046BDF791C90399700D24F66 /* Frameworks */,
+				046BDF7A1C90399700D24F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046BDF7E1C90399700D24F66 /* PBXTargetDependency */,
+			);
+			name = laridmeIOSTests;
+			productName = laridmeIOSTests;
+			productReference = 046BDF7C1C90399700D24F66 /* laridmeIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046BDF861C90399700D24F66 /* laridmeIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046BDF961C90399700D24F66 /* Build configuration list for PBXNativeTarget "laridmeIOSUITests" */;
+			buildPhases = (
+				046BDF831C90399700D24F66 /* Sources */,
+				046BDF841C90399700D24F66 /* Frameworks */,
+				046BDF851C90399700D24F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046BDF891C90399700D24F66 /* PBXTargetDependency */,
+			);
+			name = laridmeIOSUITests;
+			productName = laridmeIOSUITests;
+			productReference = 046BDF871C90399700D24F66 /* laridmeIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046BDF601C90399600D24F66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = quinzequinze;
+				TargetAttributes = {
+					046BDF671C90399700D24F66 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5BZ4TW9V99;
+					};
+					046BDF7B1C90399700D24F66 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ZRW6H5TBFJ;
+						TestTargetID = 046BDF671C90399700D24F66;
+					};
+					046BDF861C90399700D24F66 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ZRW6H5TBFJ;
+						TestTargetID = 046BDF671C90399700D24F66;
+					};
+				};
+			};
+			buildConfigurationList = 046BDF631C90399600D24F66 /* Build configuration list for PBXProject "laridmeIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046BDF5F1C90399600D24F66;
+			productRefGroup = 046BDF691C90399700D24F66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046BDF671C90399700D24F66 /* laridmeIOS */,
+				046BDF7B1C90399700D24F66 /* laridmeIOSTests */,
+				046BDF861C90399700D24F66 /* laridmeIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046BDF661C90399700D24F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046BDF761C90399700D24F66 /* LaunchScreen.storyboard in Resources */,
+				046BDF731C90399700D24F66 /* Assets.xcassets in Resources */,
+				046BDF711C90399700D24F66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046BDF7A1C90399700D24F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046BDF851C90399700D24F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046BDF641C90399700D24F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046BDF6E1C90399700D24F66 /* ViewController.swift in Sources */,
+				046BDF6C1C90399700D24F66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046BDF781C90399700D24F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046BDF811C90399700D24F66 /* laridmeIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046BDF831C90399700D24F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046BDF8C1C90399700D24F66 /* laridmeIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046BDF7E1C90399700D24F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046BDF671C90399700D24F66 /* laridmeIOS */;
+			targetProxy = 046BDF7D1C90399700D24F66 /* PBXContainerItemProxy */;
+		};
+		046BDF891C90399700D24F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046BDF671C90399700D24F66 /* laridmeIOS */;
+			targetProxy = 046BDF881C90399700D24F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046BDF6F1C90399700D24F66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046BDF701C90399700D24F66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046BDF741C90399700D24F66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046BDF751C90399700D24F66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046BDF8E1C90399700D24F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046BDF8F1C90399700D24F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046BDF911C90399700D24F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = laridmeIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		046BDF921C90399700D24F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = laridmeIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		046BDF941C90399700D24F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = laridmeIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laridmeIOS.app/laridmeIOS";
+			};
+			name = Debug;
+		};
+		046BDF951C90399700D24F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = laridmeIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/laridmeIOS.app/laridmeIOS";
+			};
+			name = Release;
+		};
+		046BDF971C90399700D24F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = laridmeIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = laridmeIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		046BDF981C90399700D24F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = laridmeIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = laridmeIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046BDF631C90399600D24F66 /* Build configuration list for PBXProject "laridmeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046BDF8E1C90399700D24F66 /* Debug */,
+				046BDF8F1C90399700D24F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046BDF901C90399700D24F66 /* Build configuration list for PBXNativeTarget "laridmeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046BDF911C90399700D24F66 /* Debug */,
+				046BDF921C90399700D24F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046BDF931C90399700D24F66 /* Build configuration list for PBXNativeTarget "laridmeIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046BDF941C90399700D24F66 /* Debug */,
+				046BDF951C90399700D24F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046BDF961C90399700D24F66 /* Build configuration list for PBXNativeTarget "laridmeIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046BDF971C90399700D24F66 /* Debug */,
+				046BDF981C90399700D24F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046BDF601C90399600D24F66 /* Project object */;
+}

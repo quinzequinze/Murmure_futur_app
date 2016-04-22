@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WKWebViewBridgeExample.xcscheme</key>
+		<key>laridmeIOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>02549F0D1A364DB700FF51B4</key>
+		<key>046BDF671C90399700D24F66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>02549F221A364DB700FF51B4</key>
+		<key>046BDF7B1C90399700D24F66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>046BDF861C90399700D24F66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
