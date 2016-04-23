@@ -134,7 +134,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
 connect()
     }
     func connect(){
-        let url = NSURL(string: "http://breal.local:4000")
+        let url = NSURL(string: "http://vigo.local:4000")
         let urlRequest = NSURLRequest(URL: url!)
         webView!.loadRequest(urlRequest)
         
