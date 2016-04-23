@@ -14,6 +14,8 @@
 		046BDF761C90399700D24F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046BDF741C90399700D24F66 /* LaunchScreen.storyboard */; };
 		046BDF811C90399700D24F66 /* laridmeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BDF801C90399700D24F66 /* laridmeIOSTests.swift */; };
 		046BDF8C1C90399700D24F66 /* laridmeIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BDF8B1C90399700D24F66 /* laridmeIOSUITests.swift */; };
+		F1639D031CCBF56E0061671D /* laridmeIOSTests.xctest in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 046BDF7C1C90399700D24F66 /* laridmeIOSTests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1639D071CCBF57B0061671D /* laridmeIOSUITests.xctest in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 046BDF871C90399700D24F66 /* laridmeIOSUITests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,36 @@
 			remoteGlobalIDString = 046BDF671C90399700D24F66;
 			remoteInfo = laridmeIOS;
 		};
+		F1639D041CCBF56E0061671D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046BDF601C90399600D24F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046BDF7B1C90399700D24F66;
+			remoteInfo = laridmeIOSTests;
+		};
+		F1639D081CCBF57B0061671D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046BDF601C90399600D24F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046BDF861C90399700D24F66;
+			remoteInfo = laridmeIOSUITests;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1639D061CCBF56E0061671D /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F1639D031CCBF56E0061671D /* laridmeIOSTests.xctest in Embed PlugIns */,
+				F1639D071CCBF57B0061671D /* laridmeIOSUITests.xctest in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		046BDF681C90399700D24F66 /* laridmeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laridmeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,10 +166,13 @@
 				046BDF641C90399700D24F66 /* Sources */,
 				046BDF651C90399700D24F66 /* Frameworks */,
 				046BDF661C90399700D24F66 /* Resources */,
+				F1639D061CCBF56E0061671D /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F1639D051CCBF56E0061671D /* PBXTargetDependency */,
+				F1639D091CCBF57B0061671D /* PBXTargetDependency */,
 			);
 			name = laridmeIOS;
 			productName = laridmeIOS;
@@ -197,12 +231,12 @@
 					};
 					046BDF7B1C90399700D24F66 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = ZRW6H5TBFJ;
+						DevelopmentTeam = 5BZ4TW9V99;
 						TestTargetID = 046BDF671C90399700D24F66;
 					};
 					046BDF861C90399700D24F66 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = ZRW6H5TBFJ;
+						DevelopmentTeam = 5BZ4TW9V99;
 						TestTargetID = 046BDF671C90399700D24F66;
 					};
 				};
@@ -292,6 +326,16 @@
 			isa = PBXTargetDependency;
 			target = 046BDF671C90399700D24F66 /* laridmeIOS */;
 			targetProxy = 046BDF881C90399700D24F66 /* PBXContainerItemProxy */;
+		};
+		F1639D051CCBF56E0061671D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046BDF7B1C90399700D24F66 /* laridmeIOSTests */;
+			targetProxy = F1639D041CCBF56E0061671D /* PBXContainerItemProxy */;
+		};
+		F1639D091CCBF57B0061671D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046BDF861C90399700D24F66 /* laridmeIOSUITests */;
+			targetProxy = F1639D081CCBF57B0061671D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -402,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = laridmeIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -417,6 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = laridmeIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -430,6 +476,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = laridmeIOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSTests;
@@ -442,6 +490,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = laridmeIOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSTests;
@@ -453,6 +503,8 @@
 		046BDF971C90399700D24F66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = laridmeIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSUITests;
@@ -465,6 +517,8 @@
 		046BDF981C90399700D24F66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = laridmeIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quinzequinze.laridmeIOSUITests;
